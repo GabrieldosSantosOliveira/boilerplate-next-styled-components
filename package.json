@@ -16,8 +16,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn lint --fix"
+    "src/**/*": [
+      "yarn lint --fix --max-warnings=0"
     ]
   },
   "dependencies": {
