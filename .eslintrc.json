@@ -5,6 +5,9 @@
     "jest": true,
     "node": true
   },
+  "ignorePatterns": [
+    ".lintstagedrc.js"
+  ],
   "settings": {
     "react": {
       "version": "detect"
