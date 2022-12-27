@@ -1,11 +1,4 @@
-import { Inter } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
+import { Main } from 'components/Main';
 export default function Home() {
-  return (
-    <div>
-      <h1>Next.js + Tailwind CSS</h1>
-    </div>
-  );
+  return <Main />;
 }
