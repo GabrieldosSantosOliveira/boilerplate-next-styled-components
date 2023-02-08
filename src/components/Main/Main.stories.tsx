@@ -5,6 +5,6 @@ export default {
   title: 'Components/Main',
   component: Main,
   args: {},
-  argTypes: {}
+  argTypes: {},
 } as Meta;
 export const Default: StoryObj = {};
